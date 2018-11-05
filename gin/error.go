@@ -5,13 +5,6 @@ import (
 	"net/http"
 )
 
-/*
-@Time : 2018/11/5 18:34 
-@Author : zhoushuai
-@File : error
-@Software: GoLand
-*/
-
 // ErrorHandler gin
 func ErrorHandler(ctx *gin.Context) {
 	defer func() {
